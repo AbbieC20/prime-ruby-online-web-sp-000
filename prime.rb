@@ -1,4 +1,4 @@
-def prime? ()
+def prime?(number)
 end
 
 #return true for prime
