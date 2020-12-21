@@ -1,6 +1,6 @@
 def prime?(number)
-  if number.even?
-    return false
+  if number
+    return false 
   else
     return true
   end
