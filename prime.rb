@@ -1,6 +1,6 @@
-def prime?(p_number)
-  (2..(p_number - 1)).each do |n|
-    return false if p_number % n == 0 || number.negative?(p_number)
+def prime?(number)
+  (2..(number - 1)).each do |n|
+    return false if number % n == 0 || number.negative?(number)
   end
     return true
 end
