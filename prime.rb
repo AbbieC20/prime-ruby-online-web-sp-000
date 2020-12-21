@@ -4,6 +4,3 @@ def prime?(number)
   else
     return false
 end
-
-#return true for prime
-#return false for non-prime
