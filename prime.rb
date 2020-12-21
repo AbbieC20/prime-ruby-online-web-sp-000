@@ -1,5 +1,5 @@
 def prime?(number)
-  if number % 3 == 0
+  if number.even?
     return false
   else
     return true
